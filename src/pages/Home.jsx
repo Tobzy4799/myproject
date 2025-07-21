@@ -38,7 +38,7 @@ const Home = () => {
     }, 1500);
   };
 
-  if (!user) return <div className="text-center mt-0 ldpg">Logging you in, Loading...</div>;
+  if (!user) return <div className="text-center mt-0 ldpg">Loading...</div>;
 
   return (
     <div className="container-fluid p-0 m-0">
