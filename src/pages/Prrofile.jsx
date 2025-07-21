@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useOutletContext } from "react-router-dom";
 import axios from "axios";
 
-const Profile = () => {
+const Prrofile = () => {
   const { user } = useOutletContext();
   const [totalSent, setTotalSent] = useState(0);
   const [totalReceived, setTotalReceived] = useState(0);
@@ -94,7 +94,7 @@ const Profile = () => {
   );
 };
 
-export default Profile;
+export default Prrofile;
 
 
 
